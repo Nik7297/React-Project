@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.ulbox{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    background-color: hotpink;
+    align-items: center;
+}
+
+.ulbox li{
+
+    margin-left: 20px;
+    font-size: x-large;
+    
+}
+.ulbox li a{
+    text-decoration: none;
+}
+
+.active{
+    color: #fff;
+}
+
+.datebox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.hpimgbox{
+    margin: 10px 10px;
+    border-radius: 10px;
+    /* border: 2px solid red; */
+    padding: 10px;
+    height: 500px;
+}
+
+.hpimgbox h1,p,img{
+    text-align: center;
+    width: 320px;
+    /* background-color: aqua; */
+    
+}
+
+.hpimgbox p{
+    color: tomato;
+    padding: 10px 0;
+    text-align: right;
+}
+.books{
+    width: 100%;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    margin: 10px 150px;
+    transition: 2s;
+}
+.books:hover{
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+}
+
+.siglebook{
+    display: flex;
+    
+    margin: 20px;
+
+}
+.hpone{
+    margin-left: 20px;
+    margin-top: 40px;
+    width: 75%;
+    
+}
+
+.hpone h1,p{
+    margin:10px 0px;
+    text-align: start;
+
+}
+.hpimgbox a{
+    text-decoration: none;
+    color: black;
+}
+
+.first{
+    color: cadetblue;
+}
+.hpone p{
+    font-size: x-large;
+    width: auto;
+}
+.by{
+    color: black;
+}
+.hpimgbox img{
+    height: 80%;
+    margin-top: 10px;
+    /* border-radius: 20px; */
+    transition: 1s;
+}
+.hpimgbox img:hover{
+    border-radius: 20px;
+    scale: 0.9;
+}

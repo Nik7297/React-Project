@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.fulldata{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    
+
+}
+
+.fullbox{
+    
+    border: 2px solid;
+    /* margin: auto; */
+    padding: 0 10px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    
+}
+.fullbox h5{
+    text-align: center;
+    width: 100px;
+    padding:  10px 0;
+}
+
+.fullbox img{
+    width: 100px;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+
+.inpbuttonbox{
+    width: 100%;
+    text-align: center;
+    
+}
+
+.inpbuttonbox input{
+    margin: 0 10px;
+    height: 30px;
+    width: 50%;
+    border-radius: 40px;
+    padding: 10px 20px;
+}
+
+.inpbuttonbox button{
+    
+    height: 30px;
+    /* width: 50%; */
+    border-radius: 40px;
+    padding: 0px 20px;
+}
