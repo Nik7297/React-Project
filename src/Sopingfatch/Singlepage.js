@@ -13,7 +13,7 @@ const [Shopsingledata, Setsingledata] = useState('')
 function handleclick(e, id) {
   e.preventDefault()
   setCart([...cart, id])
-  console.log(cart)
+  // console.log(cart)
 
 
 

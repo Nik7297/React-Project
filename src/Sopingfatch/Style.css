@@ -98,15 +98,22 @@
     display: flex;
     margin: 60px 100px;
     border: 2px solid;
+    border-radius: 20px;
 }
-
+.cartimgbox{
+    width: 500px;
+    
+}
 .cartimgbox img{
     height: 100px;
+    
     margin: 30px 40px;
 }
 
 .cartdetailbox{
     margin: 10px 50px;
+    width: 400px;
+
 }
 .itembox button{
     width: 100%;
@@ -125,12 +132,23 @@
 .btnremove{
     display: flex;
     justify-content: right;
-    padding: 20px;
+    padding: 6px 6px;
     border: 2px solid red;
     border-radius: 50%;
     height: 40px;
     width: 40px;
+    margin:30px 0 0 150px ;
+    
 }
 .cartitemall{
     margin: 10px 40px;
+    
+}
+.cartif{
+    text-align: center;
+    margin-top: 5%;
+}
+.cartif img{
+    height: 300px;
+
 }

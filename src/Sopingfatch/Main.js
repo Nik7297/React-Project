@@ -19,7 +19,7 @@ function Main() {
   function handleclick(e, id) {
     e.preventDefault()
     setCart([...cart, id])
-    console.log(cart)
+    // console.log(cart)
 
     // Setdatafanc([...AddedtoCart,title])
     // Setdatafancimg([...AddtoImg,image])
