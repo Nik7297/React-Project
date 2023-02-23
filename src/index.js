@@ -19,6 +19,7 @@ import ReactDOM from 'react-dom/client';
 // import Mywebsite from './Newwebsite/Mainpage';
 // import ContextApi from './Contextapi/App';
 import Sopingfatch from './Sopingfatch/Main';
+// import Sirvalacode from './Eccomrcesir/contextAPI/App';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -50,6 +51,7 @@ root.render(
     // <Mywebsite/>
     // <ContextApi/>
     <Sopingfatch/>
+    // <Sirvalacode/>
 
 
 );

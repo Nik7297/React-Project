@@ -7,9 +7,10 @@ import { Link } from 'react-router-dom';
 
 
 function Home() {
-    const { cart, setCart } = useContext(CartContext)
+    const { cart } = useContext(CartContext)
     const [Shopdata, Setdata] = useState([])
-    //    const [AddedtoCart, Setdatafanc] = useState([])
+     const {handleclick} = useContext(CartContext)
+     
 
 
     useEffect(() => {
@@ -23,14 +24,17 @@ function Home() {
     }, [])
 
 
-    function handleclick(e, id) {
-        e.preventDefault()
-        setCart([...cart, id])
-        console.log(cart)
+    // function handleclick(e, id) {
+    //     e.preventDefault()
+    //     setCart([...cart, id])
+    //     console.log(cart)
+
+    //     // Setdatafanc([...AddedtoCart,title])
+    //     // Setdatafancimg([...AddtoImg,image])
+    //     console.log(AddedtoCart)
 
 
-
-    }
+    // }
 
 
 
@@ -49,8 +53,16 @@ function Home() {
                             {/* <h3>{item.category}</h3> */}
                             <p>{item.title}</p>
                         </Link>
-                        {(cart.includes(item.id)==true) ? <p>Added To Cart</p> :
-                            (<Link className='btn' to='product' onClick={(e) => handleclick(e, item.id)}>Add To Cart</Link>)
+                        {(cart.find(aaya=>aaya.id === item.id)!== undefined) ? 
+                        <h5>Added To Cart</h5> :
+                            (<Link className='btn' to='product' onClick={(e) => handleclick(e,{
+                                id:item.id,
+                                title:item.title,
+                                price:item.price,
+                                image:item.image,
+
+
+                            } )}>Add To Cart</Link>)
                         }
                     </div>
                 )

@@ -9,14 +9,27 @@ import './Style.css'
 import Singlepage from './Singlepage';
 
 
-
 export const CartContext=createContext({})
 
 function Main() {
   const[cart,setCart]=useState([])
+  // const [AddedtoCart, Setdatafanc] = useState([])
+  // const [AddtoImg, Setdatafancimg] = useState([])
+
+  function handleclick(e, id) {
+    e.preventDefault()
+    setCart([...cart, id])
+    console.log(cart)
+
+    // Setdatafanc([...AddedtoCart,title])
+    // Setdatafancimg([...AddtoImg,image])
+    // console.log(AddedtoCart)
+
+
+}
 
   return (
-  <CartContext.Provider value={{cart,setCart}} >
+  <CartContext.Provider value={{cart,setCart,handleclick}} >
     <BrowserRouter>
             <Header/>
             <Routes>
