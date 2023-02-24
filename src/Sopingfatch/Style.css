@@ -152,3 +152,47 @@
     height: 300px;
 
 }
+
+.form{
+    text-align: center;
+    margin: 10%;
+    line-height: 40px;
+}
+
+
+.input-text{
+    height: 40px;
+    width: 300px;
+    margin-bottom: 2%;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+.gender{
+    margin: 10px;
+    
+}
+
+
+
+.contect-btn{
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px 100px;
+    transition-duration: 0.9s;
+    margin-top: 60px;
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.contect-btn:hover{
+    background-color: green;
+    color: aliceblue;
+    border: 5px solid green;
+    text-transform: uppercase;
+   
+    
+    
+}

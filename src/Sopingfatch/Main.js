@@ -2,8 +2,8 @@ import React, { useState,createContext } from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './Home'
 import Header from './Header'
-import About from './Home'
-import Contect from './Home'
+import About from './About'
+import Contect from './Contect'
 import Cart from './Cart'
 import './Style.css'
 import Singlepage from './Singlepage';
@@ -35,6 +35,7 @@ function Main() {
             <Routes>
                 
                 <Route path='/' element={<Home />}></Route>
+                <Route path='/about' element={<About />}></Route>
                 <Route path='/products/:id' element={<Singlepage/>}></Route>
                 <Route path='/contect' element={<Contect />}></Route>
                 <Route path='/cart' element={<Cart />}></Route>

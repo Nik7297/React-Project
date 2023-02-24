@@ -8,12 +8,12 @@ function Singlepage() {
 const {id}=useParams()
 const [Shopsingledata, Setsingledata] = useState('')
 
-
+console.log(id)
 
 function handleclick(e, id) {
   e.preventDefault()
   setCart([...cart, id])
-  // console.log(cart)
+  
 
 
 

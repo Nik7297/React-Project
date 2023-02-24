@@ -17,7 +17,7 @@ function Home() {
         axios.get('https://fakestoreapi.com/products/')
             .then((response) => {
                 Setdata(response.data)
-                // console.log(response.data)
+                console.log(response.data)
             })
 
 
