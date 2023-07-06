@@ -13,7 +13,7 @@ function Routingmain() {
 
         <BrowserRouter>
             <Routes>
-                <Route  element={<Home />}>
+                <Route path='/'  element={<Home />}>
                     <Route path='/about' element={<About />}></Route>
                     <Route path='/blog' element={<Blog />}></Route>
                     <Route path='/blog/:id' element={<SingleBlog />}></Route>

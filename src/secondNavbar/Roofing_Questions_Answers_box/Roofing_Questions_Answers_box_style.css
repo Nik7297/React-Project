@@ -1,0 +1,104 @@
+
+.Questions_Answers_box_section{
+    width: 100%;
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: center;
+    padding: 60px 0;
+    margin: 60px 0;   /* optional hai */
+
+}
+
+.Questions_Answers_container{
+    width: 80%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Most_Common_Roofing_Questions_heading{
+    
+    
+    /* border: 2px solid orange; */
+    padding: 10px;
+
+}
+.Most_Common_Roofing_Questions_heading h3{
+    width: 780px;
+    /* height: 35px; */
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.quistion_box_defult_center{
+    width: 780px;
+    /* display: flex;
+    justify-content: center;
+    border: 2px solid magenta; */
+
+    
+    
+}
+
+.main_question_containar{
+    /* padding: 10px; */
+    margin-top: 30px;
+    border: 1px solid #98B0A0;
+    
+}
+
+.question_defalte_style_question_icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 20px; */
+    background-color: #E5E5E5;
+    border-bottom: 1px solid #98B0A0;
+    margin: 0;
+    padding: 15px 20px;
+    font-weight: 700;
+    line-height: 1;
+    cursor: pointer;
+    outline: none;
+}
+
+.question_paragraf_in_default{
+    padding: 20px;
+}
+
+.question_paragraf_in_default p{
+    line-height: 2rem;
+    color: #65687A;
+    padding-bottom: 1rem;
+}
+
+#displayShow{
+    display: block;
+    /* transition-duration: 4s;
+    transition-delay: 2s; */
+}
+
+
+
+#displayHide{
+    display: none;
+    /* transition: ease-in linear 4s; */
+    /* transition-duration: 4s;
+    transition-delay: 2s; */
+    
+}
+
+.icon_hide{
+    display: none;
+}
+
+.icon_show{
+    display: block;
+}
+
+
+.box_according_icon_open{
+    color: #98B0A0;
+}

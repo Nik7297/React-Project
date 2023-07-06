@@ -1,0 +1,25 @@
+
+.dance_gallary_wrapper{
+    width: 100%;
+    /* background: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-wrap: wrap;
+}
+
+.imggallarybox{
+
+    width: 450px;
+   /* background-color: green; */
+ 
+    
+
+}
+
+.img_tag{
+   width: 400px;
+   margin-top: 20px;
+
+}

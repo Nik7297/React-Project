@@ -1,0 +1,122 @@
+.section5{
+    width: 100%;
+    
+    background-color: #F0F3F1;
+    margin: 70px 0px 70px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 70px 0px 70px 0px;
+
+}
+
+.section5_left{
+    max-width: 570px;
+    padding: 10px;
+}
+
+.section5_right{
+    max-width: 630px;
+}
+
+.section5_subDiv5{
+    width: 80%;
+    /* border: 2px solid red; */
+    max-width: 1100px;
+   
+}
+
+.section5_subDiv5_sub{
+   
+    display: flex;
+    /* justify-content: space-evenly; */
+   
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-size: 25px; */
+}
+
+.section5_left_heading{
+    
+    font-family: "Red Hat Display", Sans-serif;
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin: 1rem 0;
+}
+
+.section5-heading-title {
+    
+    font-family: "Red Hat Display", Sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.elementor-clearfix{
+    color: #65687A;
+    line-height: 23px;
+    font-family: "Red Hat Display", Sans-serif;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.section5_right_heading{
+        /* width: 100%;  */
+        text-align: center;
+        /* background-color: aquamarine; */
+        color: #003D13;;
+        font-family: "Red Hat Display", Sans-serif;
+        /* font-size: 20px;
+        font-weight: 600; */
+    
+}
+
+.section5_right_form{
+    width: 450px;
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 40px;
+    /* padding: 0px 0px 0px 40px; */
+}
+
+.section5_right_form input ,.option{
+    color: #98B0A0;
+    font-size: 15px;
+    border-color: #98B0A0;
+    border-width: 1px 1px 1px 1px;
+    padding: 8px 10px;
+    width: 100%;
+    
+    background-color: transparent;
+    /* font-family: "Red Hat Display", Sans-serif; */
+    margin: 0.5rem 0;
+}
+.input_top_heading{
+    margin-bottom: 1.1rem;
+    font-size: 22px;
+    font-weight: 500;
+}
+.btn_submit{
+    color: #fff;
+    background-color: #003D13;
+    font-size: 15px;
+    border-color: #98B0A0;
+    border-width: 1px 1px 1px 1px;
+    padding: 8px 10px;
+    margin-top: 1rem;
+    width: 100%;
+    font-family: "Red Hat Display", Sans-serif;
+    /* margin: 1rem 0 3rem 2.5rem; */
+}
+
+.select_service_div{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.select_service_span{
+    margin: .8rem 0;
+    display: block;
+    color: #54595F;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="inp">
+    <button id="btn1">click me</button>
+    <button id="btn2">Array</button>
+    <script>
+        let inp = document.querySelector('#inp')
+        console.log(inp.value)
+        let btn1 = document.querySelector('#btn1')
+        let btn2 = document.querySelector('#btn2')
+        
+        let arry = []
+    
+
+        btn1.onclick = ()=>{
+                let value = (inp.value)
+                arry.push(value)
+        }
+        btn2.onclick =  ()=>{
+            arry.forEach(element => {
+                document.write(element + '<br>')
+            });
+        }
+    
+    </script>
+</body>
+</html>

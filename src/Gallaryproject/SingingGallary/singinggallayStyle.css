@@ -1,0 +1,23 @@
+
+
+.singing_gallary_wrapper{
+    width: 100%;
+    /* background: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-wrap: wrap;
+}
+
+.singing_imggallarybox{
+    width: 450px;
+
+}
+
+
+.singing_img_tag{
+    width: 400px;
+    margin-top: 20px;
+
+}

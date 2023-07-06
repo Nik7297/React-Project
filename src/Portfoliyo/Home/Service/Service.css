@@ -1,0 +1,76 @@
+
+.service_heading{
+    text-align: center;
+    padding: 2rem 0;
+}
+.service_three_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 0;
+}
+
+.service-box {
+    margin: 5px 20px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    /* font-size: 17px; */
+    box-shadow: 1px 1px 5px #565656;
+    width: 20%;
+    height: 165px;
+    border-radius: 9px;
+}
+.service_ico{
+    /* width: 100%; */
+    /* margin-left: 1.2rem; */
+    /* margin: auto 0; */
+    text-align: center;
+    
+    
+}
+.para{
+    /* text-align: center; */
+    font-size: 13px;
+    font-weight: 600;
+    /* margin-top: 2rem; */
+   
+}
+/* .service-data-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 70%;
+} */
+
+.icon_text{
+    /* background-color: red; */
+    text-align: center;
+    height: 100px;
+    display: grid;
+    align-content: space-evenly;
+}
+
+.modalButton {
+    color: #705edc;
+    border: none;
+   
+    background-color: transparent;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.modalButton p {
+    font-size: 16px;
+    font-family: emoji;
+    font-weight: 600;
+}
+
+.btn_arrow{
+    padding: 0 0 3px 6px;
+    position: absolute;
+   
+    
+}

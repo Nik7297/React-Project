@@ -1,0 +1,156 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+/* :root{
+    --mecolor:linear-gradient(120deg, #17bebb, #f0a6ca);
+} */
+
+/* .skill_container{
+    background: var(--mecolor);
+    width: 100vw;
+   
+} */
+
+.skill_heading{
+    width: 100%;
+    font-size: xx-large;
+    text-align: center;
+    cursor: pointer;
+
+    
+}
+
+.level{
+    width: 40%;
+    border-radius: 50px;
+    background-color: transparent;
+    padding: 13px 41.4px 15px 13px;
+    box-shadow: 1px 1px 5px 1px #9d9d9d;
+    margin: 2rem auto;   
+}
+
+.my_skill{
+    width: 100%;
+    padding: 2rem 0;
+    cursor: wait;
+}
+.myskill_para{
+    font-size: medium !important;
+    cursor: pointer;
+
+
+}
+.skill {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    box-shadow: 1px 1px 5px 1px #9d9d9d;
+    font-weight: 600;
+    overflow: hidden;
+    transition: all 1s;
+    background-color: transparent;
+    padding: 5px 41.4px 5px 13px;
+    border-radius:  14px 14px 14px;
+    border-bottom: 1px solid rgb(255, 0, 191);
+}
+.skill:hover{
+    border-bottom: 0px solid transparent;
+}
+.skill:before{
+
+    content: '';
+    background-color: rgb(161, 191, 84);
+    /* border-bottom: 5px solid rgb(255, 119, 0); */
+    right: 100%;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: absolute;
+    transition-property: right;
+    transition-duration: .6s;
+    
+}
+.skill:hover:before{
+    
+    right: 7%;
+}
+
+
+
+
+/* .css_skill:before{
+
+    content: '';
+    border-bottom: 5px solid blue;
+    right: 98%;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    transition-property: right;
+    transition-duration: .6s;
+    
+} */
+.css_skill:hover:before{
+    
+    right: 17%;
+}
+.js_skill:hover:before{
+    
+    right: 32%;
+}
+.react_skill:hover:before{
+    
+    right: 47%;
+}
+.git_skill:hover:before{
+    
+    right: 72%;
+}
+
+
+@media only screen and (min-width:665px) and (max-width:1024px) {
+    .level{
+        width:70%;
+       
+        padding: 13px 25px 15px 13px;
+        
+    }
+    .skill h2{
+        font-size: 16px;
+    
+    }
+}
+@media only screen and (min-width:100px) and (max-width:665px) {
+    
+
+    .level{
+    width:80%;
+   
+    padding: 13px 25px 15px 13px;
+    
+}
+.skill h2{
+    font-size: 14px;
+
+}
+.skill {
+
+    /* display: flex;
+    justify-content: space-between;
+  
+    box-shadow: 1px 1px 5px 1px #9d9d9d;
+    font-weight: 600;
+    overflow: hidden;
+    transition: all 1s;
+    background-color: transparent;
+    padding: 5px 41.4px 5px 13px;
+    border-radius:  14px 14px 14px; */
+   
+}
+}

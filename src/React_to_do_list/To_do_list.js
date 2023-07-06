@@ -46,7 +46,7 @@ function To_do_list(){
    }
 
    function doneI(e,index){
-    e.preventDefault()
+    e.preventDefault()  
     setComplete([...complete, index])
     console.log(complete)
     // setLine(true)

@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img_title_des_box{
+    width: 400px;
+    border: 2px solid red;
+}
+
+
+.gallary_store_box{
+    display: flex;
+    justify-content: space-around;
+}
+
+.title_pera{
+    padding: 10px 20px;
+}
+
+.img_dance{
+    width: 100%;
+
+}

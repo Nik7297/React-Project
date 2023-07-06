@@ -1,0 +1,183 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins,sans-serif;
+}
+.poster{
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+.poster img{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    transition: all 0.4s ;
+    /* opacity: 0.5; */
+    filter: grayscale(100%);
+    
+    
+}
+
+.poster img:hover {
+    scale: 1.8;
+}
+
+.posterupdiv{
+ /* position: absolute;
+ top: 0; */
+
+ position: absolute;
+    top: 30%;
+    left: 30%;
+    text-align: center;
+    /* width: 100%; */
+}
+.poster_h1{
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 75px;
+    color: #fff;
+}
+.poster_p{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #ac4db1;
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+
+.btn_line {
+    position: relative;
+    border: 1px solid #fff;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 50px;
+    overflow: hidden;
+    transition: all .5s;
+    background-color: transparent;
+
+    font-size: 1.25rem;
+    padding: 13px 41.4px 15px
+}
+
+/* .btn_line:before {
+    position: absolute;
+    left: 0;
+    background: #f1b308;
+    content: '';
+    
+    z-index: -1;
+}
+
+.btn_line:hover{
+    left: 0;
+    background-color: #f1b308;
+    
+} */
+
+.btn_line:before{
+
+    content: '';
+    background-color: #f1b308;
+    right: 100%;
+    top: 0;
+    width: 100%;
+    height:100%;
+    position: absolute;
+
+    display: flex;
+    
+    transition-property: right;
+    transition-duration: 0.2s;
+    
+}
+
+.btn_line a{
+    position: sticky;
+    z-index: 99;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.btn_line:hover:before{
+    
+    right: 0;
+    
+    
+
+    
+
+}
+
+.overlapSlideText{
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    
+}
+
+.overlapSlide {
+    border: 5px solid black;
+    background-color: black;
+    height: 12rem;
+    border-top-right-radius: 257%;
+    border-top-left-radius: 214%;
+    text-align: center;
+    /* align-items: center; */
+    padding: 64px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* margin: auto 0px; */
+}
+.overlapSlide p{
+    color: #ababab;
+
+}
+.overlapSlide h1{
+    margin-bottom: 2rem;
+
+
+}
+.heading_yello{
+    color: #f1b308;
+
+
+}
+
+.transformational_app{
+    height: 45rem;
+    background-color: #212529;
+}
+
+.transformational_app img{
+    position: absolute;
+    padding-left: 20rem;
+    opacity: 0.5;
+
+
+
+   
+       
+    
+   
+}
+
+.transformational_h1p{
+    padding:10rem 0 2rem 10rem;
+
+
+}
+.transformational_h1{
+    padding-bottom: 5rem;
+}
+
+.transformational_p{
+    color: #ababab;
+    width: 75rem;
+    padding-right: 4rem;
+    line-height: 1.5rem;
+}

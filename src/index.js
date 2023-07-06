@@ -18,10 +18,27 @@ import ReactDOM from 'react-dom/client';
 // import Routingrepet from './Routingrepet/Mainrouting';
 // import Mywebsite from './Newwebsite/Mainpage';
 // import ContextApi from './Contextapi/App';
-import Sopingfatch from './Sopingfatch/Main';
+// import Sopingfatch from './Sopingfatch/Main';
 // import Sirvalacode from './Eccomrcesir/contextAPI/App';
 
+// import App from "./todolistRedux/App";
+// import store from "./todolistRedux/app/store";
+// import { Provider } from "react-redux";
 
+
+// import TodolistReactRedux from "./TodolistReactme/ReduxCallapp"
+// import PasswordGenrator from "./passwordGenrator/Main"
+// import PasswordGenrator from "./Raviexample/Ravi"
+// import Mobilecompare from "./Mobilecompar/Comparemobile"
+// import Project from "./Project/App/App"
+import Portfoliyo from "./Portfoliyo/Home/Main"
+// import Second_Navbar from './secondNavbar/second_Navbar';
+// import About from './secondNavbar/second_Navbar';
+// import FirstScreen from './secondNavbar/About/firstScreen'
+// import FinanceBox from './secondNavbar/Financeyal/FinanceBox'
+// import Roofing_Construction_Financing from './secondNavbar/Roofing_Construction_Financing/Finance'
+// import NavbarRoof from "./secondNavbar/navbar/navbar";
+// import Gallaryimg from './Gallaryproject/routs';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 
@@ -50,10 +67,29 @@ root.render(
     // <Routingrepet></Routingrepet>
     // <Mywebsite/>
     // <ContextApi/>
-    <Sopingfatch/>
+    // <Sopingfatch/>
     // <Sirvalacode/>
 
+  //   <Provider store={store}>
+  //   <App />
+  // </Provider>
 
+  // <TodolistReactRedux/>
+
+  // <PasswordGenrator/>
+
+  // <Mobilecompare/>
+  // <Project/>
+  <Portfoliyo/>
+  // <Second_Navbar></Second_Navbar>
+      // <FirstScreen></FirstScreen>
+      // <Roofing_Construction_Financing/>
+      // <FinanceBox/>
+      // <NavbarRoof/>
+
+
+
+    // <Gallaryimg/>
 );
 {/* <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script> */}
 

@@ -7,7 +7,7 @@ import ComA from './ComA'
 function App() {
   return (
    <>
-    <Fname.Provider value={'Nitesh'}>
+    <Fname.Provider value={'bhawani'}>
     <Lname.Provider value={'Kumawat'}>
         <ComA />
 

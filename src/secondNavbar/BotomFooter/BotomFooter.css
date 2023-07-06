@@ -1,0 +1,226 @@
+
+.botom_section_footer{
+    width: 100%;
+    background-color: #000422;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+
+}
+
+.botom_section_footer_subDiv{
+    width: 80%;
+    display: flex;
+    margin: 0 70px;
+    padding: 70px 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first_footer_div{
+    padding-right: 1.875em;
+    /* padding-right: 90px; */
+    /* border-right: 1px solid red; */
+
+}
+
+/* .first_second_third_hei_wid_defalt{
+    width: 25.25em;
+    height: 39.375em;
+    border-left: 2px solid white;
+} */
+
+.Roof_logoImg{
+    background-color: #000422;
+    width:12.2rem;
+    /* height: 11rem; */
+    /* width: 100%; */
+    margin-bottom: 1em;
+    display: flex;
+    justify-content: center;
+    background-color: red;
+
+}
+
+.Img_footer_logo_center{
+    display: flex;
+    justify-content: center;
+}
+
+.Roof_logoImg img{
+    /* width: 84%; */
+    /* max-width: 100%; */
+    width: 100%;
+    height: 100%;
+}
+
+.Expertise_award_img{
+    display: flex;
+}
+
+.first_footerDiv_ul_policy{
+    display: flex;
+}
+.second_div_socialmedia_icon{
+    display: flex;
+}
+
+li{
+    list-style: none;
+}
+.first_div_para {
+   
+    line-height: 23px;
+    width: 25.25em;
+    /* height: 8.625em; */
+    margin-bottom: 1em;
+}
+
+/* .award_img_box_defalt{
+
+} */
+
+.award_img_box_defalt img{
+    width: 192px;
+    height: 154px;
+}
+
+.award_img_box_first{
+    padding-right: .625em;
+}
+.award_img_box_second{
+    padding-left: .625em;
+}
+
+.first_footerDiv_ul_policy{
+
+   width: 25.1875em;
+   /* height: 1.1875em; */
+    display: flex;
+    justify-content: space-between;
+    line-height: 19px;
+    padding: 0 0.46875em 0 0;
+
+
+}
+
+
+/* second div style */
+
+.second_footer_div{
+    padding: 0 1.875rem;
+  
+    border-left: 1px solid rgb(84, 88, 94 , 0.4);
+   
+    /* border-left: 0.1px solid #54595F; */
+}
+
+/* .heading_p_all_width_default{
+        width: 18.8046875rem;
+        height: 1.1875rem;
+} */
+
+.second_box_icon{
+    padding-right: .625rem;
+    color: #98b0a0;
+}
+.contect_info_box{
+    padding-bottom: 20px;
+}
+.second_div_socialmedia_icon{
+    padding-bottom: 20px;
+}
+.social_media_icon{
+    /* padding-bottom: 20px; */
+    margin:0 0.2rem;
+    /* background-color: blue; */
+}
+.logo_featured_houzz{
+    padding: 8px;
+    border-width: 0 1px 1px 0;
+    border: 1px solid #dddddd;
+    width: 10rem;
+    height: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+.logo_featured_houzz img{
+    width: 100%;
+    height: 100%;
+    
+}
+/* .div{
+    padding-bottom: 20px;
+} */
+
+/* .footer-heading-title{
+    background-color: red;
+} */
+
+.footer-heading-style-defalt{
+    /* background-color: blue; */
+       color: #FFFFFF;
+        font-family: "Red Hat Display", Sans-serif;
+        font-size: 1.25rem;
+        font-weight: 500;
+        margin-bottom: 1.25rem;
+    
+}
+
+.third_footer_div{
+    border-left: 1px solid rgb(84, 88, 94 , 0.4);
+    padding-left: 1.8rem;
+}
+.contect_info_common_box{
+    padding-bottom: 1rem;
+    /* width: 19rem; */
+    /* background-color: red; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+.contect_info_icon_text_common{
+   /* background-color: slateblue; */
+   width: 270px;
+   display: block;
+   padding-top: .500rem;
+
+}
+
+.CONTACT_us_text_box{
+    margin-bottom: 1.25rem;
+}
+
+.p-m-b8{
+    padding-bottom: .50rem;
+    margin-bottom: .50rem;
+}
+
+.our_company_ul li, .Services_ul li ,.blog_up_footer_ul li{
+    padding-bottom: .30rem;
+    margin-bottom: .30rem;
+}
+
+.our_company_ul,.Services_ul,.blog_up_footer_ul{
+    padding-bottom: 1rem;
+}
+.Read_more p{
+    font-size: 12px;
+    color: #54595F;
+    font-weight: 700;
+    padding: .80rem 0;
+    /* margin: .5rem 0; */
+}
+
+
+
+.blog_heading{
+    width: 22.5rem;
+}
+
+.blog_heading h3{
+    width: 100%;
+    font-size: 1.06rem;
+}

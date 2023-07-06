@@ -5,9 +5,11 @@ function ComC() {
   return (
     <>
    
-    <Lname.Consumer>{(lname)=>{
+    <Lname.Consumer>{
+    (lname)=>{
         return(
-            <Fname.Consumer>{(fname)=>{
+            <Fname.Consumer>{
+              (fname)=>{
                 return(
                     <>
                     <div><h1>My name is {fname} {lname}</h1></div>
