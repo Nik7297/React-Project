@@ -7,7 +7,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5rem 0;
+    padding: 1rem 0 5rem 0;
 }
 
 .service-box {
@@ -20,7 +20,9 @@
     /* font-size: 17px; */
     box-shadow: 1px 1px 5px #565656;
     width: 20%;
-    height: 165px;
+    height: 300px;
+    max-height: 300px;
+    /* height: 165px; */
     border-radius: 9px;
 }
 .service_ico{
@@ -57,7 +59,7 @@
 .modalButton {
     color: #705edc;
     border: none;
-   
+    text-align: center;
     background-color: transparent;
     border-radius: 10px;
     cursor: pointer;

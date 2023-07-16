@@ -28,35 +28,62 @@ function Service() {
     // }
 
 
+    const service_data =[
+        {
+            heading:'UI/UX',
+            logo_name:<DesignServicesIcon/>,
+            
+        },
+        {
+            heading:'Front-end Development',
+            logo_name: <CodeIcon/>,
+            
+        },
+        {
+            heading:'Branding',
+            logo_name:<BrushIcon/>,
+            
+        },
+    ]
+
+
   return (
     <section>
         {/* <Modale></Modale> */}
         <h1 className='service_heading'>Services</h1>
         <div className='service_three_box'>
 
-        <div className='service-box'>
+            {service_data.map((sarvice_dataPass,index)=>{
+                return(
+                    <div className='service-box' onClick={()=>setPopup(true)}>
 
-        <div className='service-data-wrapper'>
-        <div className='icon_text'>
-            <div className='icon_text_iconbox'>
-                <span className='service_ico'><DesignServicesIcon/></span>
-            </div>
-            <div className='icon_text_textbox'>
-                <p className='para'>UI/UX </p>
-            </div>
-        </div>
+                    <div className='service-data-wrapper'>
+                    <div className='icon_text'>
+                        <div className='icon_text_iconbox'>
+                            <span className='service_ico'>{sarvice_dataPass.logo_name}</span>
+                        </div>
+                        <div className='icon_text_textbox'>
+                            <p className='para'>{sarvice_dataPass.heading}</p>
+                        </div>
+                    </div>
+            
+                    <div className='modalButton'>
+                        <p >Viwe more <span className='btn_arrow'><ArrowRightAltIcon/></span></p>
+                    </div>
+                    </div>
+            
+                    
+                    </div>
+                    
+                )
+            })
+            }
 
-        <div className='modalButton'>
-            <p onClick={()=>setPopup(true)}>Viwe more <span className='btn_arrow'><ArrowRightAltIcon/></span></p>
-        </div>
-        </div>
-
-        
-        </div>
+      
 
 
 
-        {/* second box */}
+        {/* second box
 
 
         <div className='service-box'>
@@ -78,12 +105,12 @@ function Service() {
         </div>
 
         
-        </div>
+        </div> */}
 
         {/* third box */}
 
 
-        <div className='service-box'>
+        {/* <div className='service-box'>
 
         <div className='service-data-wrapper'>
         <div className='icon_text'>
@@ -101,7 +128,7 @@ function Service() {
         </div>
 
         
-        </div>
+        </div> */}
 
     </div>
     {Popup && <MyModale Callmodel={Callmodel} />}

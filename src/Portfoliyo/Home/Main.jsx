@@ -8,6 +8,8 @@ import Skill from './Skills/Skill'
 import Service from './Service/Service'
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
+import Contact from './Contact/Contact'
+import Projects from './Project/Projects'
 function Main() {
   return (
     <div className='body'>
@@ -17,17 +19,20 @@ function Main() {
         <Qualificitionrouts/>
         <Skill/>
         <Service/>
-        {/* <BrowserRouter>
+        <Projects/>
+        <BrowserRouter>
             <Routes>
                 
-                    <Route path='/about' element={<Skill/>}></Route>
-                    <Route path='/blog' element={<Service/>}></Route>
+                    {/* <Route path='/' element={<Contact/>}></Route> */}
+                    {/* <Route path='/about' element={<Skill/>}></Route> */}
+                    <Route path='/contact' element={<Contact/>}></Route>
+                    {/* <Route path='/blog' element={<Service/>}></Route> */}
                     
                
                    
 
             </Routes>
-        </BrowserRouter> */}
+        </BrowserRouter>
         
 
     </div>

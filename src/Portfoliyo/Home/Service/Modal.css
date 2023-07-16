@@ -23,11 +23,13 @@
 
 .popup{
     height: 20rem;
+    min-height: 20rem;
     width: 20rem;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     position: fixed;
     border-radius: 20px;
     background-color: rgb(104, 140, 170);
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 
 .heading{

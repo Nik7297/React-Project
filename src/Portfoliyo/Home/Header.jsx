@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from '../images/Nitesh_white_logo.jpg'
-import { Link, Outlet } from 'react-router-dom'
+import { Link} from 'react-router-dom'
 import { useState } from 'react';
 import MenuIcon from '@mui/icons-material/Menu';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
@@ -44,7 +44,7 @@ function setmenuOpen(e){
 
             <div className='contact'>
           <button >
-          <a href='#'>Contact Me</a>
+          <a href='/contact' >Contact Me</a>
           </button>
         </div>
 
